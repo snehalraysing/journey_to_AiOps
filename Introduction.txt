@@ -1,0 +1,28 @@
+Linux
+-open source (cost effect.)
+-stability and performance (for apps. to available all time)
+-robust (user permissions,AppArmor,SELinux) helps protect unauthorized access
+-powerful terminal (creating users, installing packages, troubleshooting, these commands can be used together to put a bash scripts for automation)
+
+Devops Engineer - create applications right from the server layer where set have a server install packages dependencies everything necessary to host the app in application layer where app is used by the end user n Linux is used here.
+
+Hosting (apps are deployed as containers using tools like docker and kubernetes that run on Linux natively got to os)
+
+
+Automation and scripting 
+(bash, python, pearl)
+configuration management tools - CHEF ANSIBLE PUPPET designed to run natively on Linux
+CI/CD -> GitLab, Jenkins, Circles (testing,building,deploying of apps)
+command line utilities in pipelines - code compilation, testing, deployment
+Powerful networking tools - ping, dig/nslookup, etc
+GIT built on linux
+
+Youtube linkedin Facebook twitter Redit almost everything uses Linux to host their applications.
+
+Topics 
+Linux distributions
+installation/setup Linux servers
+Linux commands
+Linux file structure
+how to use all commands to create a script
+manage users, permissions

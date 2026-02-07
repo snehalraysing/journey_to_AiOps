@@ -1,0 +1,62 @@
+server -> serves the information
+client - requests info. from the server
+
+youtube.com(domain) -> inside a application server
+DNS(IP address)
+
+web server (static data -> images , files)
+application server (dynamic -> setting up some logic, calculations)
+
+types of applications
+standalone app. (no need for any server, cache nothing, no database)
+web application (cloud, frontend connection, notification, database server, email server which supports the web app)
+
+application support n app. maintenance
+app. is crashing, you should know which server has issue which connection has issue)
+
+Linux installation
+1)WSL (windows subsystem for Linux) 
+2) virtual box of VMware
+
+Linus - GPL (general public license) development, networking, programming, scripting, ubuntu makes 2 updates in 1yr.
+windows - commercial (general purpose, antiviors is needed)
+
+RDP (remote desktop protocol)
+SSH (secure shell)
+--> to connect a vm/server
+
+Kernel -> program, file, processes which is used by operate the Linux os is stored in the kernel. 
+-> it is written in C
+-> shell is a terminal which is used to talk to the kernel.
+-> we will tell by shell to tell kernel to create a folder
+-> shell commands are used to communicate with the kernel (shell is the gateway to Linux kernel)
+
+BootLoader -> it runs os files which are necessary to start the os.
+-> process stored in the kernel
+-> GRUB - prgrim in Linux sys that loads and manages the boot process
+-> GRand Unified BootLoader
+
+Linux system architecture
+
+applications (terminal,notepad, utilties) -> shell -> kernel -> hardware
+
+top -> process running in CPU
+df -h -> disk size usage
+free -h -> memory usage (RAM)
+clear
+
+File Structure
+cd / -> root folder
+ls ->what is under the root folder
+cd .. -> to go back
+
+
+Unix -> is the parent,  commercial
+Linux -> part of unix, open source
+
+Processes -> that runs in background PID(process id)
+Process State -> Running, Stopped, Sleeping, Killed/Terminated, Zombie
+
+
+
+
