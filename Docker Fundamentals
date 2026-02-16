@@ -1,0 +1,79 @@
+Containerizartion - Docker Fundamentals
+1: Physical sever provisioning 
+2: H/W Virtualization 
+hypervisior -> we can use more than single os in single h/w
+ESXi (vmware)
+kvm(redhat)
+hyper 
+WSL (windows subsystem linux) using hyper-v it is running.
+Cloud computing is also hyper-visior
+
+3: os Virtualization
+app
+lib
+dependency
+But it shares kernel
+
+Docker Engine -> core componenet that runs container
+
+
+* Container Engines * all are runtime
+dockerd (developed docker community)
+containerd (developed docker community)
+cri-io  (developed by redhat and ibm, openshift used for redhat)
+
+Kubernetes - when to manage different containers
+
+Docker Client -> where we can run docker command
+Docker Daemon background service that build image, run container, manage resources
+
+
+4: Container
+
+server -> who serves something to the client eg. java servers, http servers
+
+* Install docker Engine *
+-- package requirement
+dnf install docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+systemctl start docker
+systemctl status docker
+systemctl is-enabled docker
+systemctl status docker  (enabled)
+
+docker --version  
+docker run hello-world
+
+* in powershell *
+wsl --status
+docker --version
+docker run hello-world (daemon service needs to be enabled need to open docker desktop)
+
+docker ps  (all containers list on the system)
+docker ps -a (list of running containers)
+docker images
+docker run -d -p 8085:80 nginx (daemon mode, port)
+nginx (port 80 is running in ngnix, so we are forwarding 85 to 80 port)
+
+docker stop ngnix
+docker ps
+docker ps -a
+
+localhost:8085
+
+To start again
+docker start container_name/ container_id
+docker ps -a
+
+* how to save
+docker run -d -p 8086:80 nginx
+
+docker run -d -p 8087:80 --name hexanginx nginx  (give new name)
+
+docker exec -it hexanginx  /bin/bash  (login)
+-> image_id
+
+cat /etc/hosts (to check ip address)
+
+
+
