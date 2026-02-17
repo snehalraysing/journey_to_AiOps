@@ -2,3 +2,5 @@ Introduction to DevOps and cover brief history.
 Waterfall -> Velocity conference -> 2009 - Patrick Debois -> term introduced Devops
 
 Version Control and Collaboration
+
+Nexus, JFrog (for the build to get the artifacts rather than going to the external urls)
